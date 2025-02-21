@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsZone - Your Home for Sports</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold">SportsZone</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-blue-200">Home</a>
+                    <a href="#" class="hover:text-blue-200">News</a>
+                    <a href="#" class="hover:text-blue-200">Scores</a>
+                    <a href="#" class="hover:text-blue-200">Teams</a>
+                    <a href="#" class="hover:text-blue-200">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-blue-700 text-white py-16">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to SportsZone</h1>
+            <p class="text-xl mb-8">Your ultimate destination for sports news, scores, and analysis</p>
+            <button class="bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-100">
+                Get Started
+            </button>
+        </div>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold mb-8">Featured Stories</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Featured Story 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/api/placeholder/400/250" alt="Sports Event" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Championship Finals Set to Begin</h3>
+                    <p class="text-gray-600 mb-4">Historic matchup as top seeds prepare for epic showdown in the finals...</p>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Featured Story 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/api/placeholder/400/250" alt="Sports Event" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Rising Star Makes History</h3>
+                    <p class="text-gray-600 mb-4">Young athlete breaks decade-old record in spectacular fashion...</p>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Featured Story 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/api/placeholder/400/250" alt="Sports Event" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Team Trade Deadline Updates</h3>
+                    <p class="text-gray-600 mb-4">Latest transfers and deals as teams make final roster adjustments...</p>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Scores Section -->
+    <div class="bg-gray-200 py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8">Live Scores</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Score Card 1 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-green-600 text-sm">Live</span>
+                        <span class="text-gray-500">Q4 2:45</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center">
+                            <span class="font-semibold mr-2">Team A</span>
+                            <span class="text-2xl font-bold">87</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold">82</span>
+                            <span class="font-semibold ml-2">Team B</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Score Card 2 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-green-600 text-sm">Live</span>
+                        <span class="text-gray-500">3rd Period</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center">
+                            <span class="font-semibold mr-2">Team C</span>
+                            <span class="text-2xl font-bold">2</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold">1</span>
+                            <span class="font-semibold ml-2">Team D</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Score Card 3 -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-red-600 text-sm">Finished</span>
+                        <span class="text-gray-500">Final</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center">
+                            <span class="font-semibold mr-2">Team E</span>
+                            <span class="text-2xl font-bold">3</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold">1</span>
+                            <span class="font-semibold ml-2">Team F</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="container mx-auto px-6 py-12">
+        <div class="bg-blue-600 rounded-lg text-white p-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+            <p class="mb-6">Subscribe to our newsletter for the latest sports updates and exclusive content</p>
+            <div class="max-w-md mx-auto flex gap-4">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded text-gray-900">
+                <button class="bg-white text-blue-600 px-6 py-2 rounded font-semibold hover:bg-blue-100">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SportsZone</h3>
+                    <p class="text-gray-400">Your home for the latest sports news, scores, and analysis.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Advertise</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Sports</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Football</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Basketball</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Baseball</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Hockey</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 SportsZone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
